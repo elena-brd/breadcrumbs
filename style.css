@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    color: #292929;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5rem;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    margin: 6rem auto;
+    height: 100%;
+    width: 800px;
+    background: #fff;
+    box-shadow: 0px 11px 21px 5px rgba(191, 191, 191, 1);
+    border-radius: 10px;
+    padding: 7rem;
+}
+
+.card {
+    width: 100%;
+}
+
+.card i {
+    margin: 0 0.7rem;
+}
+
+.card h1 {
+    font-weight: 500;
+}
+
+.card .first-view,
+.card .second-view,
+.card .third-view {
+    display: flex;
+    margin-top: 3.2rem;
+}
+
+/* first */
+.card .first-view {
+    color: #787878;
+}
+
+.card .first-view .bg-dark,
+.card .second-view .bg-dark {
+    color: #292929;
+}
+
+/* second */
+.card .second-view {
+    color: #787878;
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+    padding: 1rem 0;
+}
+
+.card .second-view i {
+    color: #1565c0;
+}
+
+/* third */
+.card .third-view {
+    color: #1565c0;
+}
+
+.card .third-view .bg-light {
+    color: #787878;
+}
